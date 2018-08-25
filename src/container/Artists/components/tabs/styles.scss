@@ -1,0 +1,19 @@
+.tab-nav {
+    display: flex;
+    margin-left: 25px;
+    border-left: 1px solid rgba(32, 33, 50, 0.65);
+    padding: 10px;
+    @media screen and (max-width: 600px) {
+        margin-left: 0;
+        border-left: 0;
+        margin-top: 10px;
+    }
+    .tab-nav-item {
+        cursor: pointer;
+        margin-right: 25px;
+        color: #1cbfff;
+        &.active {
+            border-bottom: 3px solid #f9f9f9;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.play-btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+    i {
+        margin-left: 3px;
+    }
+}
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+.tag {
+    // padding: 2px 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    // background: #151727;
+    // border-radius: 15px;
+    color: #8d8d8d;
+    font-size: 12px;
+}
+.track-title {
+    .title {
+        overflow: hidden;
+        max-width: 200px;
+        color: #90909d;
+    }
+}
